@@ -41,28 +41,6 @@ In diesem Strukturdatensatz werden begleitende Informationen zu Struktur und Kla
 
 <br>
 
-**Inhaltsverzeichnis**  
-<!-- TOC depthfrom:2 depthto:3 -->
-
-- [Einleitung](#einleitung)
-- [Informationen zum Entstehungskontext des ZfKD-Datensatzes](#informationen-zum-entstehungskontext-des-zfkd-datensatzes)
-    - [Administrative und organisatorische Angaben](#administrative-und-organisatorische-angaben)
-    - [Datenübermittlung an das ZfKD](#daten%C3%BCbermittlung-an-das-zfkd)
-- [Struktur des bundesweiten klinischen Krebsregisterdatensatzes](#struktur-des-bundesweiten-klinischen-krebsregisterdatensatzes)
-    - [Datenschema](#datenschema)
-    - [Aufbau des Lieferdatensatzes](#aufbau-des-lieferdatensatzes)
-    - [Liste aller Variablen des Lieferdatensatzes](#liste-aller-variablen-des-lieferdatensatzes)
-    - [Anmerkungen zu berechneten Variablen im Lieferdatensatz](#anmerkungen-zu-berechneten-variablen-im-lieferdatensatz)
-    - [Klassifikationen](#klassifikationen)
-    - [Beispieldaten](#beispieldaten)
-- [Metadaten](#metadaten)
-- [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
-- [Lizenz](#lizenz)
-
-<!-- /TOC -->
-
-<br>
-
 <!-- HEADER_END -->
 
 ## Einleitung
@@ -159,7 +137,8 @@ Table Schema ist ein offener, von [Data Package](https://datapackage.org) defini
 
 Dieses Schema beschreibt den Lieferdatensatz exakt so, wie er Auswertenden zur Verfügung gestellt wird. Es enthält neben den fest definierten items des oBDS auch vom ZfKD zusätzlich berechnete `z_`-Variablen. Da diese Erweiterungen unabhängig vom oBDS fortgeschrieben werden, ist das Table Schema gesondert versioniert (siehe `version`-Feld).
 
-#### Downloads
+### Downloads zum Datenschema
+<a id="markdown-downloads-zum-datenschema" name="downloads-zum-datenschema"></a>
 
 Das Datenschema wird in verschiedenen Formaten zum Download angeboten. Die aktuelle Datensatzversion ist `oBDS_v3.0.4_RKI`.
 
